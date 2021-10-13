@@ -1,0 +1,95 @@
+body{
+    background-color: #192444;
+    margin: 5%;
+}
+
+#header{
+    align-items: center;
+}
+
+.flex-display{
+    display: flex;
+}
+
+#mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+#title{
+    text-align: center;
+}
+
+#title1{
+    text-align: center;
+}
+
+.card_container{
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px #1f2c56;
+}
+
+.create_container{
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px #1f2c56;
+
+}
+.dcc_commpon{
+    margin: 0;
+    padding: 5px;
+    width: calc(100% - 40px);
+}
+
+.fix_label{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: calc(100% - 40px);
+}
+
+/*width */
+::-webkit-scrollbar{
+    width: 10px !important;
+    display: block !important;
+}
+
+/*Track*/
+::-webkit-scrollbar-track{
+    background: #1f2c56 !important;
+    border-radius: 10px !important;
+    display: block !important;
+}
+
+/*Handle*/
+::-webkit-scrollbar-thumb{
+    background: dimgrey;
+}
+
+.select-control, .select-menu-outer,.select-multi-value-wrapper,.select-up,.is-open .select-control{
+    background-color: #1f2c56;
+    color: white;
+
+}
+
+.Select-control{
+    border: 0.5px solid green;
+}
+
+.has-value.select--single>.Select-control .Select-value .Select-value-label, .has-value.is-psuedo-focused.Select--single>.has-value{
+    color: white;
+}
+
+#map{
+    margin-left: auto;
+    margin-right: auto;
+}
